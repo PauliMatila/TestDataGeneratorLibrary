@@ -14,9 +14,9 @@ namespace TestDataGeneratorLibrary
             Console.WriteLine(firstNameMales[index]);            
         }
 
-        public static void GenerateRandomPerson(Person person)
+        public static Person GenerateRandomPerson()
         {
-
+            Person person = new Person();            
         }
     }
 }
